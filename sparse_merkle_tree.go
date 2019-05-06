@@ -21,7 +21,7 @@ type SparseMerkleTree struct {
 
 func (smt *SparseMerkleTree) keccak(value []byte) []byte {
 	var buf []byte
-	d := sha3.NewKeccak256()
+	d := sha3.New256()
 	d.Write(value)
 	buf = d.Sum(buf)
 	return buf
