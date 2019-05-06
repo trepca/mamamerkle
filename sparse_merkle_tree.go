@@ -9,7 +9,6 @@ import (
 	"sort"
 
 	"github.com/cevaris/ordered_map"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
 )
 
 type SparseMerkleTree struct {
