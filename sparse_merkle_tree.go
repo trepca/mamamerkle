@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"math/big"
 	"sort"
-
+        "golang.org/x/crypto/sha3"
 	"github.com/cevaris/ordered_map"
 )
 
